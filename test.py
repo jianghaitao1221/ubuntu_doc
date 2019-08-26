@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import logging
 import os
-import boto3
 import json
 import decimal
 import time
