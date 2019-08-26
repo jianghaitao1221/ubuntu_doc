@@ -26,7 +26,9 @@ def arg_parse(*args, **kwargs):
     )
     args = parser.parse_args()
     print(args.day)
-
+    with open("/tmp/data.txt", "w", encoding='UTF-8') as data_file:
+        data_file.write(args.day)
+ 
 
 def valid_date(time_str):
     try:
